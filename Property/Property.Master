@@ -1,0 +1,328 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Property.master.cs" Inherits="Property.Property" %>
+
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<%@ Register TagName="ContactInfo" TagPrefix="uc" Src="~/Controls/ContactInfo.ascx" %>
+<%@ Register TagName="SearchControl" TagPrefix="uc" Src="~/Controls/SearchControl.ascx" %>
+<%@ Register TagName="SearchBar" TagPrefix="uc" Src="~/Controls/SearchBar.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+    <link id="Link1" runat="server" rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- disable iPhone inital scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+  <title><asp:Literal ID="siteTitle" runat="server"></asp:Literal></title> 
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/media-queries.css" rel="stylesheet" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/styleBackup.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/nivo-slider.css" rel="stylesheet" />
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+    <link type="text/css" href="slider/css/jquery.bxslider.css" rel="stylesheet" />
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .contact_number {
+            float: left;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 512px;
+            z-index: 99999;
+        }
+
+            .contact_number span {
+                color: white;
+                font-size: 24px;
+            }
+
+        #Homebanner {
+            float: left;
+            width: 100%;
+        }
+
+        #map {
+            border: 2px solid #3f6f55;
+            height: 201px;
+            width: 90%;
+        }
+    </style>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            initialize();
+        });
+        var geocoder;
+        var map;
+        function initialize() {
+            geocoder = new google.maps.Geocoder();
+            var latlng = new google.maps.LatLng(-34.397, 150.644);
+            var mapOptions = {
+                zoom: 8,
+                center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            map = new google.maps.Map(document.getElementById('map'), mapOptions);
+            codeAddress();
+        }
+        function codeAddress() {
+            var address = "2250 Bovaird Drive East Unit #502";
+            geocoder.geocode({ 'address': address }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    map.setCenter(results[0].geometry.location);
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: results[0].geometry.location
+                    });
+                    var contentString = address;
+                    var infowindow = new google.maps.InfoWindow({
+                        content: '<div class="mylabel">' + contentString + '</div>'
+                    });
+                    infowindow.open(map, marker);
+                } else {
+                }
+            });
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .contact_number {
+            float: left;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 512px;
+            z-index: 99999;
+        }
+
+            .contact_number span {
+                color: white;
+                font-size: 24px;
+            }
+
+        #Homebanner {
+            float: left;
+            margin-bottom: 12px;
+            width: 100%;
+        }
+
+        #map {
+            border: 2px solid #3f6f55;
+            height: 201px;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="col-md-4 col-sm-4">
+                    <figure class="logo">
+                    <uc:Logo ID="logo" runat="server" />
+                </figure>
+                </div>
+                <div class="col-md-8 col-sm-8">
+                    <div class="header_detail1">
+                    <p><i class="fa fa-phone ftr_hdng"></i><a href="tel:905-497-2300"><asp:Label id="lblbrkerOnephn" runat="server"></asp:Label></a></p>
+                      <p><i class="fa fa-print ftr_hdng"></i><a href="tel:905-497-0400"><asp:Label  id="lblbrkrTwoPhn" runat="server"></asp:Label></a></p>
+                 </div>
+                    <div class="menu_section">
+                        <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="Home.aspx">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="OurProfile.aspx">Our Profile</a></li>
+                            <li><a href="Some_Of_Our_Services.aspx">Some OF Our Services</a></li>
+                            <%--<li><a href="FinePrint_Award_And_Claims.aspx">FinePrint Award And Claims</a></li>--%>
+                        </ul>
+                    </li>
+                     <li class="dropdown">
+                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tools <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Calculators.aspx">Calculator</a></li>
+                            <li><a href="MortgageCalculator.aspx">Mortage</a></li>
+                            <li><a href="RealEstateNews.aspx">Real Estate News</a></li>
+                            <li><a href="sweepstakes.aspx">Sweepstakes</a></li>
+                            <li><a href="search-for-your-dream-home.aspx">Find Your Dream Home</a></li>
+                            <li><a href="Free-home-evaluation.aspx">Free Home Evaluation</a></li>
+                        <%--    <li><a href="Free-home-evaluation.aspx">Relocation MIAO</a></li>
+                            <li><a target="_blank" href="http://www.adsanddeals.com/">Advertisement For Free<br />On AdsAndDeals.com</a></li>--%>
+                        </ul>
+                    </li>
+                     <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Careers <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Careers.aspx">Are you considering a career<br /> in real estate?</a></li>
+                            <li><a href="Careers.aspx">Do you have what it takes?</a></li>
+                            <li><a href="Careers.aspx">Results Oriented Training</a></li>
+                            <li><a href="Careers.aspx">Joining HomeLife™ is the<br /> right choice for you</a></li>
+                        </ul>
+                    </li>
+                       <li><a href="ContactUs.aspx">Contact Us</a></li>
+                </ul>          
+            </div><!-- /.navbar-collapse -->
+    </nav>
+                        <%--  <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>--%>
+                    </div>
+                    <script type="text/javascript" src="../js/script.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="asfmklsdjv">
+        <img src="images/innerback.jpg" />
+    </div>
+    <%--   <div class="top_menu_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="menu_section">             
+                     <asp:Literal ID="dynamicmenus" runat="server"></asp:Literal>            
+                     <script src="js/script.js"></script>   
+                </div>
+            </div>
+        </div>
+    </div>--%>
+    <%--<div id="Homebanner" runat="server">
+            <!-- Banner Slider -->
+                <div class="banner_section">
+                        <div class="slider-wrapper theme-default">
+                            <div id="slider" class="nivoSlider">
+                               <img src="images/banner1.jpg" " data-thumb="images/banner1.jpg" alt="" />
+                                <img src="images/banner2.jpg" " data-thumb="images/banner2.jpg" alt="" data-transition="slideInLeft" />
+                                <img src="images/banner3.jpg" " data-thumb="images/banner3.jpg" alt="" title="#htmlcaption" />
+                            </div>
+                        </div>
+                </div>
+            <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+            <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $('#slider').nivoSlider();
+                });
+            </script>
+        </div>
+    <div class="main_sct_bg">
+        <div class="container">
+            <div class="main_sction">
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg">
+                        <h2>Home Listing</h2>
+                        <a href="Search.aspx?PropertyType=Residential"><img src="images/img12.png"  alt="" title="" /></a>
+                        <div class="box_shadow">
+                            <img src="images/box-shadow.png" alt="" title="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg2">
+                        <h2>New Projects</h2>
+                        <a href="#"><img src="images/img13.png" alt="" title="" /></a>
+                        <div class="box_shadow">
+                            <img src="images/box-shadow.png" alt="" title="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg3">
+                        <h2>Commercial</h2>
+                        <a href="Search.aspx?PropertyType=Commercial"><img src="images/img11.png" alt="" title="" /></a>
+                        <div class="box_shadow">
+                            <img src="images/box-shadow.png" alt="" title="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> --%>
+    <form id="Form1" runat="server">
+        <div class="container" id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div>
+        <footer class="fuuter_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="col-md-3 col-sm-3">
+                     <div class="header_logo">
+                        <uc:Logo ID="logo1" runat="server" />
+                    </div>
+                    </div>
+                <div class="col-md-3 col-sm-3">
+                 <div class="footer_menu">     
+                        <ul>
+                            <li><a href="Home.aspx">Home</a></li>
+                            <li><a runat="server" href="../About.aspx">About Us</a></li>
+                            <li><a href="ContactUs.aspx">Contact Us</a></li>       
+                            <li><a href="../UsefulLinks.aspx">Links</a></li>   
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a target="_blank" href="http://www.torontorealestateboard.com/about_GTA/Neighbourhood/index.html">Neighbourhood Sold Report</a></li>                                                     
+                            <li><a href="../Free-home-evaluation.aspx">Home Evaluation</a></li>
+                         <%--   <li><a href="../ContactUs.aspx">Contact Us</a></li>--%>
+                                <li><a href="../RealEstateNews.aspx">Real Estate News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                  <div class="col-md-3 col-sm-3">
+                    <div class="fuuter_adress">
+                        <p>
+                 2250 Bovaird Dr East,<br />
+                            Suite #502, Brampton, ON<br />
+                             L6R 0W3<br />
+                            Ph: <asp:Label id="lblbrkerOnephnFooter" runat="server"></asp:Label><br />
+                             Fax: <asp:Label id="lblbrkrTwoPhnFooter" runat="server"></asp:Label>
+                           <%-- <i class="fa fa-envelope" style="font-size:12px;"></i>sales@teamkahlon.com--%>
+                        </p>
+                    </div>
+                </div>
+        </div>
+            </div>
+    </footer>
+         <div class="fuutr_phne_bg">
+                <div class="futer_phn">
+                    <i class="fa fa-phone"></i><span>905-497-2300</span>
+                </div>
+
+                <div class="futer_mail_bg">
+                    <div class="futer_mail">
+                        <a href="../ContactUs.aspx"><i class="fa fa-envelope"></i><span>Email </span></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

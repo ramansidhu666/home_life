@@ -1,0 +1,2700 @@
+
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+@media screen and (max-width: 1280px) {
+}
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+@media screen and (max-width: 1366px) 
+{
+	.main_sct_bg {
+    float: left;
+    width: 100%;
+}
+.latst_srch_bg {
+    float: left;
+    position: absolute;
+    top: 200px !important;
+    width: 100%;
+    z-index: 999999999;
+}
+.main_sction {
+   float: left;
+    left: 0 !important;
+    position: relative;
+    top: 0;
+    width: 100% !important;
+}
+.logo_srch > img {
+    width: 34%;
+}
+.logo img {
+    width: 78%;
+}
+.pricewin2 {
+    float: left;
+    height: 100px;
+    left: 41.9%;
+    position: absolute;
+    top: 135px;
+    width: 18%;
+    z-index: 999;
+}
+}
+
+
+@media screen and (max-width: 1280px) 
+{
+	.main_sct_bg {
+    float: left;
+    width: 100%;
+	 top: 673px !important;
+}
+.main_sction {
+    float: left;
+    left: 0 !important;
+    position: relative;
+    top: 0;
+    width: 100% !important;
+}
+.frnt_inpt {
+    background: #ebebeb none repeat scroll 0 0 !important;
+    border-radius: 6px !important;
+    color: black !important;
+    font-family: "CenturyGothic-Regular";
+    font-size: 14px !important;
+    padding: 3px !important;
+    text-align: center;
+}
+.logo_srch > img {
+    width: 32%;
+}
+.pricewin2 {
+    float: left;
+    height: 100px;
+    left: 42%;
+    position: absolute;
+    top: 135px;
+    width: 18%;
+    z-index: 999;
+}
+}
+
+
+@media screen and (max-width: 1024px) 
+{
+}
+
+
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+@media screen and (max-width: 768px) 
+{
+.contact_in_right {
+    float: left;
+    margin: 12px 0 !important;
+    text-align: center;
+    width: 100%;
+}
+.contact_in_left {
+    background: white none repeat scroll 0 0;
+    border: 3px solid #eaeaea;
+    float: left;
+    margin: 0 !important;
+    padding: 15px;
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 736px) 
+{
+.banner_section
+{
+	float:left;
+	width:100%;
+	margin-top:198px;
+}
+.para {
+    float: left;
+    width: 100% !important;
+}
+.futer_logo {
+    float: left;
+    margin: 12px 0 !important;
+    text-align: center !important;
+    width: 100%;
+}
+
+.footer_menu ul {
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.favorate {
+    float: left;
+    padding: 0 0 23px 26px;
+    width: 29% !important;
+}
+.fuuter_adress p {
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+}
+.footer_menu ul li a {
+    color: white;
+    float: left;
+    font-family: arial;
+    font-size: 12px;
+    text-align: center !important;
+    width: 100%;
+}
+.asfmklsdjv > img {
+    height: 204px;
+}
+.menu_section {
+    float: left;
+    position: relative;
+    width: 100% !important;
+    z-index: 9999999;
+	background:#3f6f55  ;
+}
+.top_menu_bg {
+    background: #3f6f55 none repeat scroll 0 0;
+    float: left;
+    height: 64px !important;
+    width: 100%;
+}	
+.latst_srch_bg {
+    float: left;
+    position: static !important;
+    top: 302px;
+    width: 100%;
+    z-index: 99;
+}
+.logo_srch > img {
+    width: 120px;
+}
+.logo {
+    float: left;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.header_detail1 {
+    float: right;
+    margin: 10px 0;
+    width: 84% !important;
+}
+.buyer_section {
+    float: left;
+    margin: 33px 0 2px !important;
+    width: 100%;
+}
+.video_sction {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.pricewin1 {
+    float: left;
+    height: 100px;
+    left: 9% !important;
+    position: absolute;
+    top: 245px !important;
+    width: 20% !important;
+    z-index: 999;
+}
+.pricewin2 {
+    float: left;
+    height: 100px;
+    left: 41% !important;
+    position: absolute;
+    top: 245px !important;
+    width: 20% !important;
+    z-index: 999;
+}
+.pricewin {
+    float: left;
+    height: 100px;
+    left: 74% !important;
+    position: absolute;
+    top: 245px !important;
+    width: 20% !important;
+    z-index: 999;
+}
+.nav > li {
+    background: rgba(0, 0, 0, 0) url("../images/menu-strip.png") no-repeat scroll 10px 14px;
+    float: left;
+    width: 100%;
+}
+.test_bg {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #e1e0e0;
+    border-radius: 3px;
+    float: left;
+    margin: 21px 0 0 !important;
+    padding: 6px;
+    width: 100%;
+}
+.video_sction img {
+    width: 100%;
+}
+.item > img {
+    float: left;
+    width: 100%;
+}
+.header_bg {
+    background: rgba(0, 0, 0, 0) url("../images/menu_bck.png") repeat scroll 0 0;
+    border-top: 2px solid #3f6f55;
+    float: left;
+    padding: 8px 8px 0 !important;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+	
+}
+
+/************************************************************************************
+smaller than 767
+*************************************************************************************/
+@media screen and (max-width: 667px) {
+.futr_menu_sect ul li {
+    display: inline;
+    font-family: "CenturyGothic-Regular";
+    list-style-type: none;
+    padding: 0 32px 0 0 !important;
+}
+	.srch_btn_upr {
+    float: right;
+    width: 100% !important;
+}
+.asfmklsdjv > img {
+    height: 183px;
+}
+.pricewin {
+    float: left;
+    height: 100px;
+    left: 2% !important;
+    position: absolute !important;
+    top: 16px !important;
+    width: 57%;
+    z-index: 999999;
+}
+   .nav.navbar-nav {
+    display: block !important;
+}
+.logo
+{
+float:left;
+width:100%;
+padding:0px 0 0 0px;
+text-align:center !important;
+}
+
+.logo img {
+    width: 36% !important;
+}
+.banner_section
+{
+	float:left;
+	width:100%;
+	margin-top:177px;
+}
+.pricewin {
+    float: left;
+    height: 100px;
+    left: 70% !important;
+    position: absolute !important;
+    top: 206px !important;
+    width: 57%;
+    z-index: 999999;
+}
+.pricewin1 {
+    float: left;
+    height: 100px;
+    left: 9% !important;
+    position: absolute;
+    top: 206px !important;
+    width: 20% !important;
+    z-index: 999;
+}
+.pricewin2 {
+    float: left;
+    height: 100px;
+    left: 41% !important;
+    position: absolute;
+    top: 206px !important;
+    width: 20% !important;
+    z-index: 999;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+	.video_sction {
+    float: left;
+    margin-top: 0px !important;
+    width: 100%;
+}
+		.top_section ul li {
+    color: #ffca06;
+    display: inline;
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    padding: 1px;
+    width: 100%;
+}
+.header_middle {
+    border-bottom: 1px solid #343132;
+    border-top: 1px solid #343132;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.asfmklsdjv > img {
+    height: 177px;
+}
+.top_section {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.property_logo h4 {
+    color: white;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 10px;
+    font-style: italic;
+    line-height: 16px;
+    margin: 36px 0 0 11px;
+    width: 58%;
+}
+.property_logo img {
+    float: left;
+    margin: 18px 0 11px;
+}
+.useful_link {
+    float: left;
+    margin: 21px 0 0;
+    width: 100%;
+}
+.useful_link > ul li a {
+    border-right: 1px solid;
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding: 0 8px;
+}
+.Residential_section_box {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #bdbdbd;
+    float: left;
+    margin: 0 20px 42px 7px;
+    width: 95%;
+}
+	
+	.Residential_section_box > img {
+    width: 100%;
+}
+.feature_section_box > img
+{
+	width:100%;
+}
+#slider1_container
+{
+	height:400px !important;
+}
+.banner_section
+{
+	float:left;
+	width:100%;
+	margin-top:172px;
+}
+.feature_listing {
+    float: left;
+    margin: 22px 0 0px !important;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 1px 0 11px;
+    text-align: center;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 1px 0 11px;
+    text-align: center;
+    width: 100%;
+}
+.top_section ul li {
+    color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px !important;
+    padding: 3px !important;
+    text-align: left;
+}
+.box5 > h2 {
+    color: #457066;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    margin: 5px 3px 0 18px;
+    width: 100% !important;
+}
+.search_boxx_right_bg {
+    float: left;
+    margin: 0 0 0 3px;
+    width: 100% !important;
+}
+.para {
+    float: left;
+    width: 100% !important;
+}
+.favorate {
+    float: left;
+    padding:0 0 23px 17px !important;
+    width: 65% !important;
+}
+.search_boxx_right_bg_2 {
+    float: left;
+    padding: 2px 17px 7px !important;
+    width: 100% !important;
+}
+.logo_section {
+    float: left;
+    margin: 49px 0 0;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+	display:none;
+}
+.main_sct_bg {
+    float: left;
+    width: 100%;
+	height:500px;
+}
+.main_sction {
+    float: left;
+    position: relative;
+    top: 0;
+    width: 100%;
+	background:white;
+}
+.box_sct_bg {
+    float: left;
+    margin: 20px 0;
+    width: 100%;
+}
+.video_sction {
+    float: left;
+    margin-top: 0px;
+    width: 100%;
+}
+.nav > li {
+    background: rgba(0, 0, 0, 0) url("../images/menu-strip.png") no-repeat scroll 10px 14px;
+    float: left;
+    width: 100%;
+}
+
+.Residential_section_bg {
+    float: left;
+    margin:50px 0 0;
+    width: 100%;
+}
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}
+.main_sction {
+ float: left;
+    position: relative;
+    top: 0 !important;
+    width: 100% !important;
+	left:0px !important;
+	background:white;
+}
+.header_details h3 {
+    color: white;
+    float: left;
+    font-family: bebas;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+.header_detail {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+	 float: left;
+    width: 100% !important;
+}
+iframe
+{
+	margin: 50px 0 0 -8px !important;
+    width: 100% !important;
+}
+.footer_social li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 6px 0 0 !important;
+}
+.property_new_details
+{
+	margin:89px 0 0 0px !important; 
+}
+.right_section_new {
+    background: #f4f4f4 none repeat scroll 0 0;
+    float: left;
+    margin-top: 10px !important;
+    padding-bottom: 10px;
+    width: 100% !important;
+}
+.menu_section {
+     background: #3f6f55 none repeat scroll 0 0;
+    float: left;
+    margin: -1px 0 0px !important;
+    position: relative;
+    width: 98% !important;
+    z-index: 9999999;
+}
+.top_menu_bg {
+    background: #3f6f55 none repeat scroll 0 0;
+    float: left;
+    height: 56px !important;
+    width: 100%;
+}
+.property-search-container_new
+{
+float: left;
+    padding: 6px 0 25px;
+    width: 97%;
+}
+.bottom_section_bg
+{
+	background:white !important   ;
+	}
+
+.Free-Home_new {
+    float: left;
+    margin: 10px 9px 26px -2px;
+    padding: 5px;
+    width: 100%;
+}
+.sell_house {
+    border: 1px solid #336666;
+    float: left;
+    margin: 0 18px 20px 0;
+    padding: 10px;
+    width: 100%;
+}
+.detl div {
+    float: right;
+    margin: 0 46px 2px 0;
+    width: 157px;
+}
+.infor_list_3 {
+    color: #666666;
+    float: left;
+    font-size: 16px;
+    margin: 4px 11px 0 -9px;
+    width: 100%;
+}
+.header_detail h2 {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    font-size: 17px !important;
+    font-weight: bold;
+    margin: 5px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.logo_section img {
+  margin: 25px 0 0 31px;
+    width: 67% !important;
+}
+.header_detail span {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    text-transform: uppercase;
+    width: 100%;
+}
+.header_detail1 span {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    text-transform: uppercase;
+    width: 100%;
+}
+#one-footer {
+    margin-top: 130px !important;
+}
+.box_sct_bg2 {
+    float: left;
+    margin-bottom: 25px !important;
+    width: 100%;
+}
+.toggleMenu {
+    background: rgba(0, 0, 0, 0) url("../images/menu-icon.png") no-repeat scroll 0 0;
+    color: #f0b310;
+    display: none;
+    margin: 19px 0 0 8px !important;
+    padding: 16px 30px;
+}
+.logo
+{
+	display:block;
+}
+
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100%;
+}
+#purchasePrice {
+
+    width: 100%;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100%;
+}
+#resultBox {
+ 
+    width: 100%;
+}
+#ontarioTax {
+
+    width: 100%;
+}
+#torontoTax {
+ 
+    float: left;
+    width: 100%;
+}
+.fuuter_name h2 {
+    color: #3f6f55;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    width: 100%;
+}
+.header_detail1 {
+    float: right;
+    text-align: center !important;
+    width: 83% !important;
+}
+.fuutr_phne_bg {
+     bottom: 0;
+    display: block !important;
+ position: fixed;
+}
+.futer_phn {
+    background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 49%;
+}
+.futer_phn1
+{
+	   background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin:0 6px 0 0px;
+    padding: 5px;
+    width: 44%;
+
+}
+.futer_phn span {
+    color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_phn1 span
+{
+	 color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_mail_bg {
+    background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    display: block !important;
+    float: left;
+    margin: 5px 0 0;
+    padding: 5px;
+    width: 48%;
+	text-align:center;
+}
+
+.futer_mail span {
+    padding: 8px;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 13px 14px 0;
+    width: 100%;
+}
+.search_boxx_left {
+    border: 2px solid #34393d;
+    float: left;
+    margin: 21px 0 24px 14px;
+    width: 90%;
+	height:auto;
+}
+.search_boxx_list_5 {
+    background-color: white;
+    box-shadow: 0 3px 16px -11px black;
+    float: left;
+    margin: 12px 0 0 1px;
+    width: 95%;
+}
+.mobile-phone
+{
+	display:none !important;
+}
+.header_bg_1 {
+    background: #434343 none repeat scroll 0 0;
+    border-top: 2px solid #3f6f55;
+    display: none;
+    float: left;
+    padding: 0px;
+    width: 100%;
+}
+#mortgageAffordabilityIframe
+{
+	display:none;
+}
+#premiumCalculatorIframe
+{
+	display:none;
+}
+	.srch_btn_upr {
+    float: right;
+    width: 100% !important;
+}
+   .nav.navbar-nav {
+    display: block !important;
+}
+.futer_mail > a {
+    color: white;
+}
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) {
+	.search_home_sction_bg {
+    float: left;
+    margin: 18px 0 0 !important;
+    width: 100%;
+}
+	.video_sction {
+    float: left;
+       margin-top:0px !important;
+    width: 100%;
+}
+.asfmklsdjv > img {
+    height: 182px;
+}
+	.right_section {
+    float: left;
+    margin: 28px 0 30px -10px;
+    width: 100%;
+}
+.fuutr_phne_bg {
+    display: none;
+    float: left;
+    width: 100%;
+    z-index: 9;
+}
+	.contact_number {
+    float: left;
+    padding: 4px;
+    position: absolute;
+    top: 457px !important;
+    z-index: 99999;
+}
+.contact_number span {
+    color: white;
+    float: left;
+    font-size: 16px !important;
+    text-align: center;
+    width: 91%;
+	margin-top:100px;
+}
+	.top_section ul li {
+    color: #ffca06;
+    display: inline;
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    padding: 1px;
+    width: 100%;
+}
+.header_middle {
+    border-bottom: 1px solid #343132;
+    border-top: 1px solid #343132;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.top_section {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.swep_sct_bg_new {
+    background: white none repeat scroll 0 0;
+    border: 2px solid grey;
+    border-radius: 7px;
+    float: left;
+    margin: 12px;
+    padding: 8px;
+    width: 93% !important;
+}
+.property_logo h4 {
+    color: white;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 10px;
+    font-style: italic;
+    line-height: 16px;
+    margin: 36px 0 0 11px;
+    width: 58%;
+}
+.property_logo img {
+    float: left;
+    margin: 18px 0 11px;
+}
+.useful_link {
+    float: left;
+    margin: 21px 0 0;
+    width: 100%;
+}
+.useful_link > ul li a {
+    border-right: 1px solid;
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding: 0 8px;
+}
+.Residential_section_box {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #bdbdbd;
+    float: left;
+    margin: 0 20px 42px 7px;
+    width: 95%;
+}
+#slider1_container
+{
+	height:350px !important;
+}
+.banner {
+    border: medium none;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.top_section_services {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}
+	
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}	
+.Detail_Email {
+    float: left;
+    margin: 8px 0 0;
+    width: 100%;
+}
+#slider1_container
+{
+	 width: 257px !important;
+}
+#map-canvas
+{
+	width:100% !important;
+}
+.Images {
+    float: left;
+    margin: 0 15px 10px 9px;
+    width: 92% !important;
+}
+ .Free-Home {
+    border: 2px solid #457066;
+    float: left;
+    margin: 41px 0 40px !important;
+    padding: 15px 14px 0 15px !important;
+    width: 99% !important;
+}
+.Infomation > input {
+    border: 1px solid gray;
+    float: left;
+    margin-bottom: 0px;
+    width: 100% !important;
+}
+.Infomation {
+    float: left;
+    width: 100% !important;
+	height:71px !important;
+}
+.feature_listing {
+    float: left;
+    margin: 22px 0 0px !important;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 1px 0 11px;
+    text-align: center;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px;
+    margin-bottom: 1px;
+    padding: 1px 0 11px;
+    text-align: center;
+    width: 100%;
+}
+.top_section ul li {
+    color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px !important;
+    padding: 3px !important;
+    text-align: left;
+}
+.box5 > h2 {
+    color: #457066;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    margin: 5px 3px 0 18px;
+    width: 100% !important;
+}
+.search_boxx_right_bg {
+    float: left;
+    margin: 0 0 0 3px;
+    width: 100% !important;
+}
+.para {
+    float: left;
+    width: 100% !important;
+}
+.favorate {
+    float: left;
+    padding: 0 0 23px 17px !important;
+    width: 65% !important;
+}
+.search_boxx_right_bg_2 {
+    float: left;
+    padding: 2px 17px 7px !important;
+    width: 100% !important;
+}
+.logo_section {
+     float: left;
+    margin: 49px 0 0;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+	display:none;
+}
+.main_sct_bg {
+     float: left;
+    position: relative !important;
+    top: -25px !important;
+    width: 100%;
+	height:500px;
+}
+.main_sction {
+    float: left;
+    position: relative;
+    top: 592px !important;
+    width: 100%;
+	background:white;
+}
+.box_sct_bg {
+    float: left;
+    margin: 28px 0 13px;
+    width: 100%;
+}
+.video_sction {
+    float: left;
+    margin-top:0px !important;
+    width: 100%;
+}
+.nav > li {
+    background: rgba(0, 0, 0, 0) url("../images/menu-strip.png") no-repeat scroll 10px 14px;
+    float: left;
+    width: 100%;
+}
+
+.Residential_section_bg {
+    float: left;
+    margin: 227px 0 0 !important;
+    width: 100%;
+}
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 97% !important;
+}
+.main_sction {
+ float: left;
+    position: relative;
+    top:0 !important;
+    width: 100% !important;
+	left:0px !important;
+	background:white;
+}
+.header_details h3 {
+    color: white;
+    float: left;
+    font-family: bebas;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+.header_detail {
+    margin-bottom: 10px;
+text-align: center;
+    width: 100%;
+	 float: left;
+    width:100% !important;
+}
+iframe
+{
+	margin: 50px 0 0 0px !important;
+    width: 100% !important;
+}
+.footer_social li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 6px 0 0 !important;
+}
+.property_new_details
+{
+	margin:89px 0 0 0px !important; 
+}
+.right_section_new {
+    background: #f4f4f4 none repeat scroll 0 0;
+    float: left;
+    margin-top: 10px !important;
+    padding-bottom: 10px;
+    width: 100% !important;
+}
+.menu_section {
+    float: left;
+    position: relative;
+    width:100% !important;
+    z-index: 9999999;
+	background:#3f6f55  ;
+}
+.top_menu_bg {
+    background: #3f6f55 none repeat scroll 0 0;
+    float: left;
+    height: 60px !important;
+    width: 100%;
+}
+.property-search-container_new
+{
+float: left;
+    padding: 6px 0 25px;
+    width: 97%;
+}
+.bottom_section_bg
+{
+	background:white !important   ;
+	}
+
+.Free-Home_new {
+    float: left;
+    margin: 10px 9px 26px -2px;
+    padding: 5px;
+    width: 100%;
+}
+.sell_house {
+    border: 1px solid #336666;
+    float: left;
+    margin: 0 18px 20px 0;
+    padding: 10px;
+    width: 96%;
+}
+ .seaarch_Property_in {
+    float: left;
+    height: 209px;
+    margin: 0 0 0 2px;
+    width: 100% !important;
+}
+.Infomation > span {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 13px 0 0;
+    width: 100%;
+}
+.property-search-container .medium-module {
+    height: auto;
+    width: 100%;
+}
+.detl div {
+    float: right;
+    margin: 0 46px 2px 0;
+    width: 157px;
+}
+.infor_list_3 {
+    color: #666666;
+    float: left;
+    font-size: 16px;
+    margin: 4px 11px 0 -9px;
+    width: 100%;
+}
+.banner_section {
+    float: left;
+    margin-top: 176px;
+    width: 100%;
+}
+.header_detail h2 {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    font-size: 20px !important;
+    font-weight: bold;
+    margin: 5px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.logo_section img {
+ margin: 25px 0 0 31px;
+    width: 67% !important;
+}
+.header_detail span {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+
+    text-transform: uppercase;
+    width: 100%;
+}
+.header_detail1 span {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+
+    text-transform: uppercase;
+    width: 100%;
+}
+#one-footer {
+    margin-top: 0px !important;
+}
+.box_sct_bg2 {
+    float: left;
+    margin-bottom: 25px !important;
+    width: 100%;
+}
+.header_bg {
+    background: #434343 none repeat scroll 0 0;
+    border-top: 2px solid #3f6f55;
+    float: left;
+    height: auto !important;
+    padding: 0px;
+    width: 100%;
+	position:relative;
+}
+.toggleMenu {
+    background: rgba(0, 0, 0, 0) url("../images/menu-icon.png") no-repeat scroll 0 0;
+    color: #f0b310;
+    display: none;
+    margin: 19px 0 0 8px !important;
+    padding: 16px 30px;
+}
+.logo
+{
+	display:block;
+}
+.container
+{
+	padding:0px;
+}
+
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100%;
+}
+#purchasePrice {
+
+    width: 100%;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100%;
+}
+#resultBox {
+ 
+    width: 100%;
+}
+#ontarioTax {
+
+    width: 100%;
+}
+#torontoTax {
+ 
+    float: left;
+    width: 100%;
+}
+.fuuter_name h2 {
+    color: #3f6f55;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    width: 100%;
+}
+.header_detail1 {
+     float: right;
+    text-align: center !important;
+    width: 86% !important;
+}
+.fuutr_phne_bg {
+     bottom: 0;
+    display: block !important;
+ position: fixed;
+}
+.futer_phn {
+    background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 48%;
+}
+.futer_phn1
+{
+	   background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 44%;
+
+}
+.futer_phn span {
+    color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_phn1 span
+{
+	 color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_mail_bg {
+    background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    display: block !important;
+    float: left;
+    margin: 5px 0 0;
+    padding: 5px;
+    width: 49%;
+	text-align:center;
+}
+
+.futer_mail span {
+    padding: 8px;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 13px 14px 0;
+    width: 100%;
+}
+.fuuter_map {
+    float: left;
+    margin: 20px 0 0;
+    width: 100%;
+}
+.futr_menu_sect ul li {
+    display: inline;
+    font-family: "CenturyGothic-Regular";
+    font-size: 13px;
+    list-style-type: none;
+    padding: 0 12px 0 0 !important;
+}
+.futer_mail {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.search_boxx_left {
+    border: 2px solid #34393d;
+    float: left;
+    margin: 21px 0 24px 14px;
+    width: 90%;
+	height:auto;
+}
+.search_boxx_list_5 {
+    background-color: white;
+    box-shadow: 0 3px 16px -11px black;
+    float: left;
+    margin: 12px 0 0 1px;
+    width: 95%;
+}
+.search_boxx_right_bg > span > a {
+    color: #34393d;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    margin: -22px 0 15px 7px;
+    padding: 30px 0 0;
+    text-align: justify;
+    text-decoration: none;
+    width: 90%;
+}
+.mobile-phone
+{
+	display:none !important;
+}
+.header_bg_1 {
+    background: #434343 none repeat scroll 0 0;
+    border-top: 2px solid #3f6f55;
+    display: none;
+    float: left;
+    padding:0px;
+    width: 100%;
+}
+	.srch_btn_upr {
+    float: right;
+    width: 100% !important;
+}
+
+   .nav.navbar-nav {
+    display: block !important;
+}
+.logo img {
+    width: 50% !important;
+}
+.property-search-container .medium-module {
+    height: auto;
+    width: 90% !important;
+}
+.property-search-container .small-module {
+    width: 90% !important;
+}
+}
+
+@media screen and (max-width: 414px) {
+.banner_section {
+    float: left;
+    margin-top: 188px;
+    width: 100%;
+}
+ul.dt-sc-tabs-frame > li > a {
+    background: #1c1c1c none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    float: left;
+    font-family: Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.logo img {
+    width: 71% !important;
+}
+.asfmklsdjv > img {
+    height: 193px;
+}
+.pricewin1 {
+    float: left;
+    height: 58px !important;
+    left: 10% !important;
+    margin-top: 12px;
+    position: sticky !important;
+    width: 81% !important;
+    z-index: 99;
+	text-align:center;
+}
+.pricewin2 {
+    float: left;
+    height: 45px !important;
+    left: 10% !important;
+    position: sticky !important;
+    top: 135px;
+    width: 80% !important;
+    z-index: 999999;
+    text-align:center;
+}
+	.pricewin {
+    float: left;
+    height: 58px !important;
+    left: 10% !important;
+    position: sticky !important;
+    top: 16px !important;
+    width: 81% !important;
+    z-index: 999999;
+	margin-top: 12px;
+	text-align:center;
+}
+}
+
+@media screen and (max-width: 375px) {
+	input[type="submit"], button, input[type="button"] {
+    background-color: #293e2b;
+    border: medium none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 14px 0 7px;
+    padding: 6px 25px !important;
+}
+	.seaarch_Property_in {
+    float: left;
+    height: 270px;
+    margin: 0 0 0 2px;
+    width: 98%;
+}
+#slider1_container {
+    width: 100% !important;
+}
+	.news_sction_bg {
+    background: #f1f0f0 none repeat scroll 0 0;
+    border: 1px solid #c8c6c6;
+    border-radius: 5px;
+    float: left;
+    margin: 20px 0 0;
+    padding: 12px;
+    width: 100%;
+}
+	.swep_sct_bg {
+    background: white none repeat scroll 0 0;
+    float: left;
+    width: 100% !important;
+}
+	.asfmklsdjv > img {
+    height: 216px;
+}
+	.Free-Home_1 {
+    float: left;
+    margin: 18px 0 0;
+    width: 100%;
+}
+	 .Free-Home {
+    border: 2px solid #457066;
+    float: left;
+    margin: -1px 0 40px !important;
+    padding: 15px 14px 24px 15px !important;
+    width: 99% !important;
+}
+	.Contact_US {
+    float: left;
+    margin: -5px 0 0;
+    width: 100%;
+}
+	.logo {
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+	.menu_section {
+    background: #3f6f55 none repeat scroll 0 0;
+    float: left;
+    position: absolute;
+    width: 100% !important;
+    z-index: 9999999;
+}
+	.header_bg
+{
+	padding:0px !important;
+}
+	.banner_section {
+    float: left;
+    margin: 145px 0 0;
+    width: 100%;
+}
+	iframe
+{
+	 margin: 250px 0 0 -8px !important;
+    width: 103% !important;
+}
+.footer_social a {
+    line-height: 51px;
+}
+.buyer_section {
+    float: left;
+    margin: 33px 0 2px !important;
+    width: 100%;
+}
+.footer_social li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 6px 0 0 !important;
+}
+.property_new_details
+{
+	margin:6px 0 0 !important; 
+}
+.right_section_new {
+    background: #f4f4f4 none repeat scroll 0 0;
+    float: left;
+    margin-top: 10px !important;
+    padding-bottom: 10px;
+    width: 100% !important;
+}
+.Residential_section_bg {
+    float: left;
+    margin:216px 0 0 0px !important;
+    width: 100%;
+}
+.video_sction {
+    float: left;
+       margin-top: 0px !important;
+    width: 100%;
+}
+.menu_section {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 9999999;
+	background:#3f6f55  ;
+}
+.top_menu_bg {
+    background: #3f6f55 none repeat scroll 0 0;
+    float: left;
+    height: 64px !important;
+    width: 100%;
+}
+.property-search-container_new
+{
+float: left;
+    padding: 6px 0 25px;
+    width: 97%;
+}
+.bottom_section_bg
+{
+	background:white !important   ;
+	}
+
+.Free-Home_new {
+       float: left;
+    margin: 10px 9px 0 -2px;
+    padding: 10px;
+    width: 100%;
+}
+.sell_house {
+    border: 1px solid #336666;
+    float: left;
+    margin: 0 18px 20px 0;
+    padding: 10px;
+    width: 100%;
+}
+  ul.dt-sc-tabs-frame > li > a {
+    background: #1c1c1c none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    float: left;
+    font-family: Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px !important;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 10px !important;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.seaarch_Property_in {
+    float: left;
+    height: 209px;
+    margin: 0 0 0 2px;
+    width: 100% !important;
+}
+.infor_list_2 {
+    color: #666666;
+    float: left;
+    font-size: 16px;
+    margin: 14px 0 0 -6px;
+    width: 100%;
+}
+.Infomation > span {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 13px 0 0;
+    width: 100%;
+}
+.property-search-container .medium-module {
+    height: auto;
+    width: 100%;
+}
+.detl div {
+    float: right;
+    margin: 0 46px 2px 0;
+    width: 157px;
+}
+.infor_list_3 {
+    color: #666666;
+    float: left;
+    font-size: 16px;
+    margin: 4px 11px 0 -9px;
+    width: 100%;
+}
+.srch_btn_upr input {
+    width: 67% !important;
+}
+.header_detail h2 {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    font-size: 20px !important;
+    font-weight: bold;
+    margin: 5px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.Sendbutton
+{
+	width:30% !important;
+	margin:19px 0 0 20px !important;
+}
+.logo_section img {
+   margin: 25px 0 0 31px;
+    width: 67% !important;
+}
+.header_detail span {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    text-transform: uppercase;
+    width: 100%;
+}
+.header_detail1 span {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    text-transform: uppercase;
+    width: 100%;
+}
+#one-footer {
+    margin-top: 0px !important;
+}
+.box_sct_bg2 {
+    float: left;
+    margin-bottom: 25px !important;
+    width: 100%;
+}
+.header_bg {
+    background: #434343 none repeat scroll 0 0;
+    border-top: 2px solid #3f6f55;
+    float: left;
+    height: auto !important;
+    padding: 0px;
+    width: 100%;
+}
+.toggleMenu {
+    background: rgba(0, 0, 0, 0) url("../images/menu-icon.png") no-repeat scroll 0 0;
+    color: #f0b310;
+    display: none;
+    margin: 19px 0 0 8px !important;
+    padding: 16px 30px;
+}
+.logo {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 100%;
+	margin-bottom:10px;
+}
+.container
+{
+	padding:0px;
+}
+
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100%;
+}
+#purchasePrice {
+
+    width: 100%;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100%;
+}
+#resultBox {
+ 
+    width: 100%;
+}
+#ontarioTax {
+
+    width: 100%;
+}
+#torontoTax {
+ 
+    float: left;
+    width: 100%;
+}
+.fuuter_name h2 {
+    color: #3f6f55;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    width: 100%;
+}
+.header_detail1 {
+   float: right;
+    text-align: center !important;
+    width: 70% !important;
+}
+.fuutr_phne_bg {
+     bottom: 0;
+    display: block !important;
+ position: fixed;
+}
+.futer_phn {
+    background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 47%;
+}
+.futer_phn1
+{
+	   background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 44%;
+
+}
+.futer_phn span {
+    color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_phn1 span
+{
+	 color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_mail_bg {
+    background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    display: block !important;
+    float: left;
+    margin: 5px 0 0;
+    padding: 5px;
+    width: 48%;
+}
+.futer_mail span {
+    padding: 8px;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 13px 14px 0;
+    width: 100%;
+}
+.srch_btn_upr {
+    float: right;
+    width: 80%;
+}
+.futr_menu_sect ul {
+    float: left;
+    line-height: 26px;
+    width: 100%;
+}
+.search_boxx_left {
+    border: 2px solid #34393d;
+    float: left;
+    margin: 21px 0 24px 14px;
+    width: 90%;
+	height:auto;
+}
+.search_boxx_list_5 {
+    background-color: white;
+    box-shadow: 0 3px 16px -11px black;
+    float: left;
+    margin: 12px 0 0 1px;
+    width: 95%;
+}
+.search_boxx_right_bg > span > a {
+    color: #34393d;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    margin: -22px 0 15px 7px;
+    padding: 30px 0 0;
+    text-align: justify;
+    text-decoration: none;
+    width: 90%;
+}
+.mobile-phone
+{
+	display:none !important;
+}
+.header_bg_1 {
+    background: #434343 none repeat scroll 0 0;
+    border-top: 2px solid #3f6f55;
+    display: none;
+    float: left;
+    padding:0px;
+    width: 100%;
+}
+	.srch_btn_upr {
+    float: right;
+    width: 100% !important;
+}
+.nav.navbar-nav {
+    display: block !important;
+}
+.Free-Home_1 {
+    float: left;
+    margin: 18px 0 0;
+    width: 100%;
+}
+.left_section_in_5 {
+      background-color: #f2f4f4;
+    border-radius: 8px;
+    box-shadow: 0 5px 16px -5px gray;
+    float: left;
+    margin: 14px 10px 50px  1px;
+    /*margin: 14px 0 17px 1px;*/
+    padding: 5px;
+    width: 97%;
+}
+.header_detail1  p {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    font-size: 17px;
+    width: 100% !important;
+	margin:4px 0;
+}
+
+.logo img {
+    width: 62% !important;
+}
+.latst_srch_bg {
+    float: left;
+    position: static !important;
+    top: 200px !important;
+    width: 100%;
+    z-index: 999999999;
+}
+.banner_section {
+    float: left;
+    margin: 216px 0 0;
+    width: 100%;
+}
+.Infomation > span {
+     float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 13px 0 0;
+    width: 148px !important;
+    color:#151515;
+}
+.logo_srch > img {
+    margin: 0 0 10px 0px;
+	width:40%;
+}
+.property-search-container_new {
+ float: left;
+padding: 0px !important;
+width: 100% !important;
+}
+.pricewin1 {
+    float: left;
+    height: 58px !important;
+    left: 10% !important;
+    margin-top: 12px;
+    position: sticky !important;
+    width: 81% !important;
+    z-index: 0 !important;
+}
+.pricewin2 {
+    float: left;
+    height: 45px !important;
+    left: 10% !important;
+    position: sticky !important;
+    top: 135px;
+    width: 80% !important;
+    z-index: 0 !important;
+}
+	.pricewin {
+    float: left;
+    height: 58px !important;
+    left: 10% !important;
+    position: sticky !important;
+    top: 16px !important;
+    width: 81% !important;
+    z-index: 0 !important;
+	margin-top: 12px;
+}
+.test_bg {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #e1e0e0;
+    border-radius: 3px;
+    float: left;
+    margin: 12px 0 !important;
+    padding: 6px;
+    width: 100%;
+}
+.test_bg_image {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #e1e0e0;
+    border-radius: 3px;
+    float: left;
+    margin: 10px 0 !important;
+    padding: 6px;
+    width: 100% !important;
+}
+}
+
+/************************************************************************************
+smaller than 360
+*************************************************************************************/
+@media screen and (max-width: 360px) {
+
+.asfmklsdjv > img {
+    height: 212px;
+}
+	.banner_section {
+    float: left;
+    margin: 213px 0 0;
+    width: 100%;
+}
+}
+
+/************************************************************************************
+smaller than 320
+*************************************************************************************/
+@media screen and (max-width: 320px) {
+	.srch_btn_upr {
+    float: right;
+    width: 100% !important;
+}
+
+   .nav.navbar-nav {
+    display: block !important;
+}
+
+	.top_section ul li {
+    color: #ffca06;
+    display: inline;
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    padding: 1px;
+    width: 100%;
+}
+.header_middle {
+    border-bottom: 1px solid #343132;
+    border-top: 1px solid #343132;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.top_section {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.property_logo h4 {
+    color: white;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 10px;
+    font-style: italic;
+    line-height: 16px;
+    margin: 36px 0 0 11px;
+    width: 58%;
+}
+.property_logo img {
+    float: left;
+    margin: 18px 0 11px;
+}
+.useful_link {
+    float: left;
+    margin: 21px 0 0;
+    width: 100%;
+}
+.useful_link > ul li a {
+    border-right: 1px solid;
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding: 0 8px;
+}
+.Residential_section_box {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #bdbdbd;
+    float: left;
+    margin: 0 20px 42px 7px;
+    width: 95%;
+}
+#slider1_container
+{
+	height:349px !important;
+}
+.banner {
+    border: medium none;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.top_section_services {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}
+	
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}	
+.Detail_Email {
+    float: left;
+    margin: 8px 0 0;
+    width: 100%;
+}
+#slider1_container
+{
+	 width: 257px !important;
+}
+#map-canvas
+{
+	width:100% !important;
+}
+.Images {
+    float: left;
+    margin: 0 15px 10px 9px;
+    width: 92% !important;
+}
+ .Free-Home {
+    border: 2px solid #457066;
+    float: left;
+    margin: 4px 0 40px !important;
+    padding: 15px 14px 0 15px !important;
+    width: 99% !important;
+}
+.Infomation > input {
+    border: 1px solid gray;
+    float: left;
+    margin-bottom: 17px;
+    width: 100% !important;
+}
+.Infomation {
+    float: left;
+    width: 100% !important;
+	height:auto !important;
+}
+.contact_number {
+    float: left;
+    padding: 4px;
+    position: absolute;
+    top: 457px !important;
+    z-index: 99999;
+}
+.contact_number span {
+    color: white;
+    float: left;
+    font-size: 16px !important;
+    text-align: center;
+    width: 91%;
+}
+ul.dt-sc-tabs-frame > li > a {
+    background: #1c1c1c none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+    float: left;
+    font-family: Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 8px !important;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 10px !important;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.property-search-container .medium-module {
+    height: 90px;
+    width: 100% !important;
+}
+.feature_listing {
+    float: left;
+    margin: 22px 0 0px !important;
+    width: 100%;
+}
+.Residential_section_bg h3 {
+    border-bottom: 1px solid #c2c3c4;
+    color: #3a4d3b;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 18px !important;
+    margin-bottom: 1px;
+    padding: 1px 0 11px;
+    text-align: center;
+    width: 100%;
+}
+.top_section ul li {
+    color: white;
+    display: inline;
+    font-family: arial;
+    font-size: 13px !important;
+    padding: 3px !important;
+    text-align: left;
+}
+.box5 > h2 {
+    color: #457066;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px;
+    margin: 5px 3px 0 18px;
+    width: 100% !important;
+}
+.search_boxx_right_bg {
+    float: left;
+    margin: 0 0 0 3px;
+    width: 100% !important;
+}
+.para {
+    float: left;
+    width: 100% !important;
+}
+.favorate {
+    float: left;
+    padding: 0 0 23px 17px !important;
+    width: 65% !important;
+}
+.search_boxx_right_bg_2 {
+    float: left;
+    padding: 2px 17px 7px !important;
+    width: 100% !important;
+}
+.logo_section {
+    float: left;
+    margin: 62px 0 8px;
+    text-align: left !important;
+    width: 100% !important;
+	display:none;
+
+}
+.main_sct_bg {
+      float: left;
+    position: relative !important;
+    top: -15px !important;
+    width: 100%;
+    z-index: 999999;
+	height:500px;
+}
+.main_sction {
+    float: left;
+    position: relative;
+    top: 23px !important;
+    width: 100%;
+	background:white;
+}
+.box_sct_bg {
+    float: left;
+    margin:20px 0 42px;
+    width: 100%;
+}
+/*.video_sction {
+    float: left;
+       margin-top: 81px !important;
+    width: 100%;
+}*/
+.nav > li {
+    background: rgba(0, 0, 0, 0) url("../images/menu-strip.png") no-repeat scroll 10px 14px;
+    float: left;
+    width: 100%;
+}
+
+.Residential_section_bg {
+    float: left;
+    margin:140px 0px 0 !important;
+    width: 100%;
+}
+.Residential_section {
+    float: left;
+    margin: 20px 0 0;
+    width: 100% !important;
+}
+.main_sction {
+    float: left;
+    position: relative;
+    top: 0 !important;
+    width: 100% !important;
+	left:0px !important;
+	background:white;
+}
+.header_details h3 {
+    color: white;
+    float: left;
+    font-family: bebas;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+.header_detail {
+    float: left;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+iframe
+{
+	 margin: 150px 0 0 -9px !important;
+    width: 104% !important;
+}
+.footer_social li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 5px 0 0 !important;
+}
+.property_new_details
+{
+	margin:71px 0 0 2px!important; 
+}
+.right_section_new {
+    background: #f4f4f4 none repeat scroll 0 0;
+    float: left;
+    margin-top: 10px !important;
+    padding-bottom: 10px;
+    width: 100% !important;
+}
+.box_sct_bg3 {
+    float: left;
+    margin: 14px 0 47px !important;
+    width: 100%;
+}
+.menu_section {
+    float: left;
+    position: relative;
+    width: 100% !important;
+    z-index: 9999999;
+	background:#3f6f55  ;
+}
+.top_menu_bg {
+    background: #3f6f55 none repeat scroll 0 0;
+    float: left;
+    height: 57px !important;
+    width: 100%;
+}
+.toggleMenu {
+    background: rgba(0, 0, 0, 0) url("../images/menu-icon.png") no-repeat scroll 0 0;
+    color: #f0b310;
+    display: none;
+    margin: 19px 0 0 8px !important;
+    padding: 16px 30px;
+}
+.property-search-container_new
+{
+float: left;
+    padding: 6px 0 25px;
+    width: 97%;
+}
+.bottom_section_bg
+{
+	background:white !important   ;
+}
+
+.Free-Home_new {
+    float: left;
+    margin: 10px 9px 0px -2px;
+    padding: 5px;
+    width: 100%;
+}
+.sell_house {
+   border: 1px solid #336666;
+    float: left;
+    margin: 0 18px 20px 0;
+    padding: 10px;
+    width: 98%;
+}
+  .seaarch_Property_in {
+    float: left;
+    height: 209px;
+    margin: 0 0 0 2px;
+    width: 100% !important;
+}
+.Infomation > span {
+    color: #151515;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    margin: 13px 0 0;
+    width: 100%;
+}
+.property-search-container .medium-module {
+    height: auto;
+    width: 100%;
+}
+.detl div {
+    float: right;
+    margin: 0 46px 2px 0;
+    width: 157px;
+}
+.infor_list_3 {
+    color: #666666;
+    float: left;
+    font-size: 16px;
+    margin: 4px 11px 0 -9px;
+    width: 100%;
+}
+.header_detail h2 {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    font-size: 20px !important;
+    font-weight: bold;
+    margin: 5px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.logo_section img {
+    width: 62%  !important;
+}
+.header_detail span {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    text-transform: uppercase;
+    width: 100%;
+}
+.header_detail1 span {
+    color: white;
+    float: left;
+    font-family: "CenturyGothic-Regular";
+    text-transform: uppercase;
+    width: 100%;
+}
+.box_sct_bg2 {
+    float: left;
+    margin-bottom: 25px !important;
+    width: 100%;
+}
+.header_bg {
+    background: rgba(0, 0, 0, 0) url("../images/menu_bck.png") repeat scroll 0 0;
+    border-top: 2px solid #3f6f55;
+    float: left;
+    height: auto !important;
+    padding: 0px !important;
+    position: absolute !important;
+    width: 100%;
+    z-index: 9999;
+}
+.logo {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 100%;
+	margin-bottom:10px;
+}
+.container
+{
+	padding:0px;
+}
+
+#landCalcBox {
+    color: #000000 !important;
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+#calculatorForm {
+    margin: auto;
+    width: 100% !important;
+}
+#headerCalc {
+
+    width: 100%;
+}
+#purchasePrice {
+
+    width: 100%;
+}
+#purchasePrice > input {
+    width: 100% !important;
+}
+#checkBox {
+
+    width: 100%;
+}
+#resultBox {
+ 
+    width: 100%;
+}
+#ontarioTax {
+
+    width: 100%;
+}
+#torontoTax {
+ 
+    float: left;
+    width: 100%;
+}
+.fuuter_name h2 {
+    color: #3f6f55;
+    float: left;
+    font-family: "open_sansbold";
+    font-size: 20px !important;
+    width: 100%;
+}
+.header_detail1 {
+    float: right;
+    text-align: center !important;
+    width: 76% !important;
+}
+.fuutr_phne_bg {
+   bottom: 0;
+    display: block !important;
+     position: fixed;
+}
+
+.futer_phn1
+{
+	   background: #3f6f55 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: white;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 44%;
+
+}
+
+.futer_phn span {
+    color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+.futer_phn1 span
+{
+	 color: white !important;
+    margin: 0 5px 4px 0;
+    padding: 5px;
+}
+
+.futer_mail span {
+    padding: 8px;
+}
+.smpc-div > input {
+    float: left;
+    margin: 10px 13px 14px 0;
+    width: 100% !important;
+}
+.search_boxx_left {
+    border: 2px solid #34393d;
+    float: left;
+    margin: 21px 0 24px 14px;
+    width: 90%;
+	height:auto;
+}
+.search_boxx_list_5 {
+    background-color: white;
+    box-shadow: 0 3px 16px -11px black;
+    float: left;
+    margin: 12px 0 0 1px;
+    width: 95%;
+}
+.search_boxx_right_bg > span > a {
+    color: #34393d;
+    float: left;
+    font-family: "open_sansregular";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    margin: -22px 0 15px 7px;
+    padding: 30px 0 0;
+    text-align: justify;
+    text-decoration: none;
+    width: 90%;
+}
+.mobile-phone
+{
+	display:none !important;
+}
+.header_bg_1 {
+    background: #434343 none repeat scroll 0 0;
+    border-top: 2px solid #3f6f55;
+    display: none;
+    float: left;
+    padding: 0px;
+    width: 100%;
+}
+.banner_section {
+    float: left;
+    margin-top: 204px;
+    width: 100%;
+}
+.Contact_US {
+    float: left;
+    margin: 1px 0 0;
+    width: 100%;
+}
+.Free-Home_1 {
+    float: left;
+    margin: 18px 0 0;
+    width: 100%;
+}
+.asfmklsdjv > img {
+    height: 204px;
+}
+.swep_sct_bg {
+    background: white none repeat scroll 0 0;
+    float: left;
+    width: 100% !important;
+}
+.news_sction_bg {
+    background: #f1f0f0 none repeat scroll 0 0;
+    border: 1px solid #c8c6c6;
+    border-radius: 5px;
+    float: left;
+    margin: 20px 0 0;
+    padding: 12px;
+    width: 100%;
+}
+.seaarch_Property_in {
+    float: left;
+    height: 270px;
+    margin: 0 0 0 2px;
+    width: 98%;
+}
+#slider1_container {
+    width: 100% !important;
+}
+input[type="submit"], button, input[type="button"] {
+    background-color: #293e2b;
+    border: medium none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 14px 0 7px;
+    padding: 6px 25px !important;
+}
+}

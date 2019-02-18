@@ -1,0 +1,518 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeMaster.Master.cs" Inherits="Property.HomeMaster" %>
+<%@ Register TagName="Logo" TagPrefix="uc" Src="~/Controls/logo.ascx" %>
+<%@ Register TagName="SearchBar" TagPrefix="uc"  Src="~/Controls/SearchBar.ascx" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxtoolkit" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link id="favicon" runat="server" rel="shortcut icon" type="image/x-icon" />
+  
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- disable iPhone inital scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+    <title><asp:Literal ID="siteTitle" runat="server"></asp:Literal></title>
+  <%--  <title>Real Estate</title>--%>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/media-queries.css" rel="stylesheet" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/styleBackup.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/nivo-slider.css" rel="stylesheet" />
+    <link href="css/shortcodes.css" rel="stylesheet" />
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="jquery.bxslider.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+
+
+    <script type="text/javascript" src="js/shortcodes.js"></script>
+    <script type="text/javascript" src="js/jquery_009.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+
+
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .contact_number {
+            float: left;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 512px;
+            z-index: 99999;
+        }
+
+            .contact_number span {
+                color: white;
+                font-size: 24px;
+            }
+
+        #Homebanner {
+            float: left;
+            width: 100%;
+        }
+
+        #map {
+            border: 2px solid #3f6f55;
+            height: 201px;
+            width: 90%;
+        }
+    </style>
+    <style type="text/css">
+        .AutoExtender {
+            background: none repeat scroll 0 0 hsl(0, 0%, 96%);
+            border: 1px solid #ccc;
+            font-family: Verdana,Arial Black;
+            font-size: 12px;
+            font-weight: normal;
+            height: auto;
+            line-height: 20px;
+            margin-top: -1px;
+            position: absolute;
+            width: 75% !important;
+            z-index: 600001;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        .AutoExtender li
+        {
+            list-style-type:none;
+        }
+        .AutoExtenderList {
+            cursor: pointer;
+            color: Black;
+            width: 257px;
+            padding-left: 7px;
+        }
+
+        .AutoExtenderHighlight {
+            color: White;
+            background-color: #006699;
+            cursor: pointer;
+            width: 257px;
+            padding-left: 7px;
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <style type="text/css">
+        blockquote {
+            clear: both;
+            font-style: italic;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 10px 10px 0 50px;
+            position: relative;
+            quotes: none;
+            background: url(https://dl.dropbox.com/u/96099766/RotatingTestimonial/open-quote.png) 0 0 no-repeat;
+            border: 0px;
+            font-size: 120%;
+            line-height: 200%;
+        }
+    </style>
+
+</head>
+<body>   
+  <form runat="server" id="form">
+       <asp:ScriptManager ID="scrmngr" runat="server">
+    </asp:ScriptManager>
+     <!--header start-->
+        <div>
+       <div id="Homebanner" runat="server">
+            <!-- Banner Slider -->   
+                <div class="banner_section">
+                        <div class="slider-wrapper theme-default">
+                            <div id="slider" class="nivoSlider">
+
+                                    <asp:Literal ID="ltrImgs" runat="server"></asp:Literal>     
+                               <%-- <img src="images/banner4.jpg" " data-thumb="images/banner4.jpg" alt="" />
+                               <img src="images/banner1.jpg" " data-thumb="images/banner1.jpg" alt="" />
+                                <img src="images/banner2.jpg" " data-thumb="images/banner2.jpg" alt="" data-transition="slideInLeft" />
+                                <img src="images/banner3.jpg" " data-thumb="images/banner3.jpg" alt="" />--%>
+                            </div>
+                        </div>
+                </div>
+            <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $('#slider').nivoSlider();
+                });
+            </script>
+        </div>
+        </div>
+      <div class="pricewin">
+          <a href="Free-home-evaluation.aspx">
+             <img src="images/homewarranty.jpg" /></a>
+      </div>
+        <div class="pricewin2">
+          <a href="ContactUs.aspx">
+              <img src="images/realestate_course.jpg" /></a>
+
+       
+      </div>
+       <div class="pricewin1">
+          <a href="sweepstakes.aspx">
+              <img src="images/enter2win.jpg" /></a>
+       
+      </div>
+      <div class="latst_srch_bg">
+          <div class="container">
+              <div class="col-md-2 col-sm-2"></div>
+              <div class="col-md-8 col-sm-8">
+                  <div class="ltst_srch_sct">
+                        <div class="col-md-3 col-sm-3"></div> 
+                       <div class="col-md-6 col-sm-6">
+                            <div class="logo_srch">
+                          <img src="images/ZjpCAeFnrgT6gjPHx.png" />
+                      </div>  
+                            </div>
+                      <div class="col-md-3 col-sm-3"></div>
+                      <div class="input_srch_new"> 
+                                <asp:TextBox ID="txtSearch" runat="server"  class="frnt_inpt" placeholder="Search by City,Postal Code or MLS" AutoComplete="off"></asp:TextBox>
+                                <ajaxtoolkit:AutoCompleteExtender ID="AutoCompleteExtender1" CompletionSetCount="10"
+                                    TargetControlID="txtSearch" UseContextKey="True" CompletionInterval="0" ServiceMethod="GetAutoCompleteData"
+                                    CompletionListCssClass="AutoExtender" CompletionListItemCssClass="AutoExtenderList"
+                                    CompletionListHighlightedItemCssClass="AutoExtenderHighlight" MinimumPrefixLength="2"
+                                    Enabled="True" runat="server">
+                                </ajaxtoolkit:AutoCompleteExtender>     
+                      </div>
+                      <div class="frnt_btn_srch">
+                           <div class="col-md-3 col-sm-3"></div>
+                          <div class="col-md-6 col-sm-6">             
+                                    <div class="frnt_btn_srch_inner">
+                                        <asp:Button ID="btnSearch" runat="server" Text="Search" class="btn btn-primary active frnt_srch_neww" 
+                                        OnClick="btnSearch_Click" />
+
+                                    </div>
+                           <div class="col-md-3 col-sm-3"></div>
+                      </div>
+                  </div>
+              </div>
+                  </div>
+              <div class="col-md-2 col-sm-2"></div>
+          </div>
+      </div>
+    <div class="header_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+            <div class="col-md-4 col-sm-4">
+                <figure class="logo">
+                    <uc:Logo ID="logo" runat="server" />
+                </figure>
+            </div>
+                <div class="col-md-8 col-sm-8">
+                    <div class="header_detail1">
+                        <p><i class="fa fa-phone ftr_hdng"></i><a href="tel:905-497-2300"><asp:Label id="lblbrkerOnephn" runat="server"></asp:Label></a></p>
+                        <p><i class="fa fa-print ftr_hdng"></i><a href="tel:905-497-0400"><asp:Label  id="lblbrkrTwoPhn" runat="server"></asp:Label></a></p>
+                    </div>
+                    <div class="menu_section">
+                        <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="Home.aspx">Home</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="../OurProfile.aspx">Our Profile</a></li>
+                                            <li><a href="../Some_Of_Our_Services.aspx">Some OF Our Services</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tools <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="../Calculators.aspx">Calculator</a></li>
+                                            <li><a href="../MortgageCalculator.aspx">Mortage</a></li>
+                                            <li><a href="../RealEstateNews.aspx">Real Estate News</a></li>
+                                            <li><a href="../sweepstakes.aspx">Sweepstakes</a></li>
+                                            <li><a href="../search-for-your-dream-home.aspx">Find Your Dream Home</a></li>
+                                            <li><a href="../Free-home-evaluation.aspx">Free Home Evaluation</a></li>
+                                          <%--  <li><a href="../Free-home-evaluation.aspx">Relocation MIAO</a></li>--%>
+                                            <%--<li><a target="_blank" href="http://www.adsanddeals.com/">Advertisement For Free<br />On AdsAndDeals.com</a></li>--%>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Careers <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="../Careers.aspx">Are you considering a career<br />
+                                                in real estate?</a></li>
+                                            <li><a href="../Careers.aspx">Do you have what it takes?</a></li>
+                                            <li><a href="../Careers.aspx">Results Oriented Training</a></li>
+                                            <li><a href="../Careers.aspx">Joining HomeLife™ is the<br />
+                                                right choice for you</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="ContactUs.aspx">Contact Us</a></li>
+                                    <%--  <li><a href="admin/adminlogin.aspx">Login</a></li>--%>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </nav>
+                    </div>
+                    <script type="text/javascript" src="../js/script.js"></script>
+                </div>
+            </div>
+    </div>
+        </div>
+    <!--header end-->
+    <!--banner start-->
+    <!--banner end-->
+<%--<div class="frnt_search_bg">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="frnt_srch_sct">
+                    <div class="property-search-container">
+                        <uc:SearchBar ID="SearchBar" runat="server" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>--%>
+      <div class="middle_sctn_new">
+        <div class="container">
+            <div class="main_sction">
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg">
+                         <div class="box_sct_imggg"><img src="images/img12.png"  alt="" title="" /></div>
+                        <h2>Join Our Team</h2>
+                        <p>Please accept our personal invitation, to meet ourBroker of Record Rajiv Datta and learn why our
+                            sales professionals are so successful.
+                        </p>
+                        <div class="box_sct_btn">
+                            <a href="../Join_Our_Team.aspx" class="btn btn-primary active frnt_read_btn">Read More </a>
+                        </div>
+                    </div>
+                    <div class="shadow_box">
+                        <img src="images/shadow_img.png" />
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg">
+                         <div class="box_sct_imggg"><img src="images/img13.png"  alt="" title="" /></div>
+                         <h2>Free Market Evaluation</h2>
+                        <p>The equity in your home is like any other Investment - it needs to be monitored.
+                              Homeowners should have their equity evaluated once a year.
+                        </p>
+                       <div class="box_sct_btn">
+                            <a href="../Free-home-evaluation.aspx" class="btn btn-primary active frnt_read_btn">Read More </a>
+                        </div>
+                    </div>
+                      <div class="shadow_box">
+                        <img src="images/shadow_img.png" />
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="box_sct_bg">
+                         <div class="box_sct_imggg"><img src="images/img12.png"  alt="" title="" /></div>
+                        <h2>Pre-Construction Condos</h2>
+                        <p style="padding: 28px;">Looking for Condominium.
+                        </p>
+                        <div class="box_sct_btn">
+                        <%--     <a href="../Search.aspx?PropertyType=Condo" class="btn btn-primary active frnt_read_btn">Read More </a>--%>
+                                 <a href="../PreConstructionCondos.aspx" class="btn btn-primary active frnt_read_btn">Read More </a>
+                        </div>
+                    </div>
+                      <div class="shadow_box">
+                        <img src="images/shadow_img.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+        <div  id="containerdiv">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    <div class="midle_sct_bg">
+        <div class="container">
+            <div class="col-md-12 col-sm-12">
+                <div class="midle_sctn_cntnt">
+                    <p>At HomeLife Lifetime Realty Inc. we uphold an ongoing commitment to providing an elevated level of personal service. Our clients come first, and as a result, they are able to achieve more than they ever dreamed with their real estate investment.
+Because we expect more from our associates, you can expect more from us when it comes to the important sale or purchase of your property. When it comes to your next move, we want you to experience the difference exception real estate service can make.
+Contact us today, for free real estate advice, to find your nearest sales associate or to find your dream home!</p>
+                </div>
+             </div>
+        </div>
+    </div>
+      <div class="bottom_section_bg">
+          <div class="container">
+              <div class="col-md-12 col-md-12">
+                  <div class="col-md-4 col-md-4"> 
+                      <div class="video_sction">
+                          <a href="Agents_List.aspx">
+                          <img src="images/join_our_team.png" alt="" title="" />
+                              </a>
+                      </div>
+                      <div class="shadow_box_new">
+                          <img src="images/shadow_img.png" />
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-md-4">
+                      <div class="buyer_section">
+                          <!-- Banner Slider -->
+                          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                              <div class="carousel-inner" role="listbox">
+                                  <div class="item active">
+                                      <img src="images/small_banner1.jpg" data-thumb="images/small_banner1.jpg" alt="" />
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/small_banner2.jpg" data-thumb="images/small_banner2.jpg" alt="" />
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/small_banner3.jpg" data-thumb="images/small_banner3.jpg" alt="" />
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/small_banner4.jpg" data-thumb="images/small_banner4.jpg" alt="" />
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/small_banner5.jpg" data-thumb="images/small_banner5.jpg" alt="" />
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/small_banner6.jpg" data-thumb="images/small_banner6.jpg" alt="" />
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/small_banner7.jpg" data-thumb="images/small_banner7.jpg" alt="" />
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/small_banner8.jpg" data-thumb="images/small_banner8.jpg" alt="" />
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/small_banner9.jpg" data-thumb="images/small_banner9.jpg" alt="" />
+                                  </div>
+                                  <div class="item">
+                                      <img src="images/small_banner10.jpg" data-thumb="images/small_banner10.jpg" alt="" />
+                                  </div>
+                              </div>
+                              <!-- Left and right controls -->
+                          </div>
+                      </div>
+                      <div class="shadow_box_new">
+                          <img src="images/shadow_img.png" />
+                      </div>
+                  </div>
+              
+          <div class="col-md-4 col-md-4">
+              <div class="test_bg">
+                  
+                  <hr />
+                  <h5>Testimonials</h5>
+                   <div id="divcominr" runat="server" class="comin_soon">
+                                <img alt="" src="images/cming_soooon.jpg"/>
+                            </div>
+                  <div id="sliderTestimonial" runat="server">
+                  <ul class="bxslider" >
+                      <asp:Repeater ID="grdTestimonials" runat="server">
+                          <HeaderTemplate>
+                          </HeaderTemplate>
+                          <ItemTemplate>
+                              <li>
+                                  <blockquote>
+                                      <div class="grdTestimonialstext">
+                                          <asp:Label ID="lblPassword" runat="server" Text='<%# Eval("Comments") %>'></asp:Label>
+                                          <a id="lblReadMore" style="float: right;" href="View_Testimonials.aspx">Read More</a>
+                                      </div>
+                                  </blockquote>
+                              </li>
+                          </ItemTemplate>
+                      </asp:Repeater>
+
+
+                  </ul>
+                  </div>
+              </div> 
+              <script type="text/javascript">
+                  $(document).ready(function () {
+                      $('.bxslider').bxSlider({
+                          mode: 'vertical',
+                          slideMargin: 1,
+                          speed: 3000,
+                          auto: true
+                      });
+                  });
+    </script>     
+              <div class="shadow_box_new">
+                  <img src="images/shadow_img.png" />
+              </div>
+                  </div>
+                 
+
+              </div>
+          </div>
+      </div>
+      <div>
+          <footer class="fuuter_bg">
+              <div class="container">
+                  <div class="col-md-12 col-sm-12">
+                      <div class="col-md-3 col-sm-3">
+                          <div class="futer_logo">
+                              <uc:Logo ID="logo1" runat="server" />
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                          <div class="footer_menu">
+                              <ul>
+                                  <li><a href="Home.aspx">Home</a></li>
+                                  <li><a runat="server" href="../About.aspx">About Us</a></li>
+                                  <li><a href="ContactUs.aspx">Contact Us</a></li>
+                                  <li><a href="../UsefulLinks.aspx">Links</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                          <div class="footer_menu">
+                              <ul>
+                                  <li><a target="_blank" href="http://www.torontorealestateboard.com/about_GTA/Neighbourhood/index.html">Neighbourhood Sold Report</a></li>
+                                  <li><a href="../Free-home-evaluation.aspx">Home Evaluation</a></li>
+                                  <li></li>
+                                  <li><a href="../RealEstateNews.aspx">Real Estate News</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                          <div class="fuuter_adress">
+                             <p>
+                 2250 Bovaird Dr East,<br />
+                            Suite #502, Brampton, ON<br />
+                             L6R 0W3<br />
+                           Ph: <asp:Label id="lblbrkerOnephnFooter" runat="server"></asp:Label><br />
+                             Fax: <asp:Label id="lblbrkrTwoPhnFooter" runat="server"></asp:Label>
+                         </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </footer>
+          <div class="fuutr_phne_bg">
+                <div class="futer_phn">
+                    <i class="fa fa-phone"></i><span>905-497-2300</span>
+                </div>
+
+                <div class="futer_mail_bg">
+                    <div class="futer_mail">
+                        <a href="../ContactUs.aspx"><i class="fa fa-envelope"></i><span>Email </span></a>
+                    </div>
+                </div>
+            </div>
+      </div>
+</form>
+</body>
+</html>
